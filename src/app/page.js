@@ -1,12 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Cabecalho from "./components/Cabecalho";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+        <Cabecalho/>
       <div className={styles.description}>
         <p>
-          matheus  by editing&nbsp;
+          Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
