@@ -6,10 +6,12 @@ export default function Home() {
   return (
     <main>
       <Button variant="outline-primary">Primary</Button>{' '}
-      <Cabecalho/>
-      <a href="/fundamentos"> Pagina fundamentos</a> <br/>
+
+      <Cabecalho titulo="Página inicial" sub="aprendendo manipulação"/>
+    
       <Link href='/fundamentos'> paginas fundamentos</Link>
 
+      <Cabecalho titulo="Página final" sub="aprendendo componentes"/>
     </main>
   );
 }
