@@ -9,7 +9,8 @@ export default function Home() {
 
       <Cabecalho titulo="Página inicial" sub="aprendendo manipulação"/>
     
-      <Link href='/fundamentos'> paginas fundamentos</Link>
+      <Link href='/fundamentos'> paginas fundamentos</Link> <br/>
+      <Link href='/clientes'> paginas de clientes</Link>
 
       <Cabecalho titulo="Página final" sub="aprendendo componentes"/>
     </main>
