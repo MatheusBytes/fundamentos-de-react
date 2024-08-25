@@ -51,7 +51,7 @@ export default function Objetos() {
 
   return (
     <Pagina titulo="Página de objetos">
-      <Container className="mt-5"> {/* Container adicional para controle de espaçamento */}
+      <Container className="mt-5"> {/* Container adicional para controlar o  espaçamento da página */}
         <Row>
           {carros.map((item) => (
             <Col key={item.id} sm={12} md={6} lg={4} className="mb-4">
