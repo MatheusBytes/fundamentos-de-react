@@ -6,13 +6,14 @@ export default function Pagina(props) {
     
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">fundamentos</Navbar.Brand>
+          <Navbar.Brand href="/">inicío</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/fundamentos">fundamentos</Nav.Link>
             <Nav.Link href="/clientes">Clientes</Nav.Link>
             <Nav.Link href="/objetos">objetos</Nav.Link>
             <Nav.Link href="/array">Array</Nav.Link>
             <Nav.Link href="/nomes">nomes</Nav.Link>
+            <Nav.Link href="/numeros">números</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
