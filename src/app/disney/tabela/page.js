@@ -16,24 +16,26 @@ export default function Page() {
 
   return (
     <Pagina titulo="Disney-tabelas">
-      <Table striped bordered hover>
+      
+        
+<Table striped bordered hover>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Foto</th>
+        </tr>
+      </thead>
+      <tbody>
         {personagens.map((item) => (
-          
-            ))}
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Nome</th>
-            <th>foto</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
+          <tr key={item.id}>
+            <td>{item.id}</td>
             <td>{item.name}</td>
-            <td>{item.imageUrl}</td>
+            <td height={10}>{item.imageUrl}</td>
           </tr>
-        </tbody>
-      </Table>
+        ))}
+      </tbody>
+    </Table>
 
     </Pagina>
   );
