@@ -31,7 +31,7 @@ export default function Page() {
           <tr key={item.id}>
             <td>{item.id}</td>
             <td>{item.name}</td>
-            <td height={10}>{item.imageUrl}</td>
+            <td height={30}> <img src={item.imageUrl}/> </td>
           </tr>
         ))}
       </tbody>
