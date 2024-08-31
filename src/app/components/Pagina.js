@@ -15,6 +15,9 @@ export default function Pagina(props) {
             <Nav.Link href="/nomes">nomes</Nav.Link>
             <Nav.Link href="/numeros">números</Nav.Link>
             <Nav.Link href="/disney">Disney</Nav.Link>
+            <Nav.Link href="/disney/cards">Disney-cards</Nav.Link>
+            <Nav.Link href="/disney/tabela">Disney-tabelas</Nav.Link>
+            <Nav.Link href="/disney/carrossel">Disney-carrosel</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

@@ -16,14 +16,13 @@ export default function Page() {
 
   return (
     <Pagina titulo="Disney-cards">
-          <Container className="mt-5"> {/* Container adicional para controlar o  espaçamento da página */}
+      <Container className="mt-5">
         <Row>
           {personagens.map((item) => (
             <Col key={item.id} sm={12} md={6} lg={4} className="mb-4">
               <Card style={{ width: "18rem" }}>
                 <Card.Img height={200} variant="top" src={item.imageUrl} />
                 <Card.Body>
-  
                   <Card.Text> Personagem: {item.name}</Card.Text>
                 </Card.Body>
               </Card>
