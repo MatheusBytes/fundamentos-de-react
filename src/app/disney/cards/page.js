@@ -19,7 +19,7 @@ export default function Page() {
       <Container className="mt-5">
         <Row>
           {personagens.map((item) => (
-            <Col key={item.id} sm={12} md={6} lg={4} className="mb-4">
+            <Col key={item._id} sm={12} md={6} lg={4} className="mb-4">
               <Card style={{ width: "18rem" }}>
                 <Card.Img height={200} variant="top" src={item.imageUrl} />
                 <Card.Body>

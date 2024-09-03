@@ -15,10 +15,10 @@ export default function DisneyCarrossel() {
 
   return (
     <Pagina titulo="Disney Carrossel">
-      <Carousel>
+      <Carousel className="mt-3" style={{width:800}}>
         {personagens.map(item => (
-      <Carousel.Item>
-        <img height="auto" width="auto" src={item.imageUrl}/>
+      <Carousel.Item key={item._id}>
+        <img height={"300"} width={"500"} src={item.imageUrl}/>
         <Carousel.Caption>
           <h3>{item.name}</h3>
         </Carousel.Caption>
